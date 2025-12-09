@@ -23,9 +23,6 @@ fun FakeVersionCheck() {
             }
         }
     }
-    LaunchedEffect(Unit) {
-        context.fakeVersionCheck(confirmationDialogAlertDialogState::show)
-    }
 }
 
 @Composable
